@@ -14,7 +14,9 @@ public class MockInterview {
 		int len=B.size(),n=len-1;
 		return n*(n+1)/2;
 	}
-	
+	public void newFeature() {
+		System.out.println("Placeholder for new feature");
+	}
 
 	public List<Integer> findArr(ArrayList<Integer> A, ArrayList<Integer> B){
 		Collection<Integer> c;
